@@ -10,7 +10,7 @@
 #  Website: https://github.com/vacanza/holidays
 #  License: MIT (see LICENSE file)
 
-import warnings
+import warnings 
 from gettext import gettext as tr
 
 from holidays.calendars import _CustomIslamicHolidays
@@ -192,6 +192,9 @@ class India(
 
         # Dussehra.
         self._add_dussehra(tr("Dussehra"))
+
+        # Vijaya Dashami
+        self.add_vijaya_dashami(tr("Vijaya Dashami")
 
         # Mahavir Jayanti.
         self._add_mahavir_jayanti(tr("Mahavir Jayanti"))
